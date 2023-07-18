@@ -5,12 +5,17 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <style>
     body {
-      background-color: #26292E;
+      height: 100%;
+      width: 100%;
+      background: #fefefe url(https://raw.githubusercontent.com/mhill426/free404/gh-pages/construction/construction.png) center bottom fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
       color: #2E2F30;
       font-family: sans-serif;
       margin: 0;
     }
-
     footer {
       position: absolute;
       bottom: 1%;
@@ -19,64 +24,48 @@
       font-size: .6em;
       color: #fff
     }
-
     a {
       color: #fff;
     }
-
     a:hover {
-      color: #e74c3c;
+      color: #393939;
     }
-
     .dialog {
-      float:right;
+      float:left;
       text-align: left;
-      width: 60%;
-      margin: 5% auto 0;
+      width: 50%;
+      margin: 2% auto 0;
+      padding-left: 10%;
     }
-
     h1 { 
-      font-size: 4em;
-      color: #fff;
+      font-size: 3.5em;
+      color: #393939;
       line-height: 1em;
     }
-
+    h2 { 
+      font-size: 2em;
+      color: #393939;
+      line-height: .5em;
+    }
     p {
       font-size: 1.4em;
-      color: #fff;
-      padding-right: 5%;
+      color: #393939;
     }
-
-    .image {
-      position: absolute;
-      float: left;
-      top: 0;
-      width:60%;
-    }
-
     @media only screen and (max-width: 767px) {
-      .image {
-        width: 100%;
-        top: -50px;
-      }
-
       .dialog {
         float:none;
         text-align: center;
         width: 90%;
-        margin-top: 70%
       }
-    }
+    }  
   </style>
 </head>
-
 <body>
   <!-- This file lives in public/404.html -->
-  <img src="https://raw.githubusercontent.com/mhill426/free404/gh-pages/lights_off/light-bulb.png" class="image">
   <div>
     <div class="dialog">
-      <h1>Hey, who turned off the lights?</h1>
-      <p>We were unable to find the page you were looking for.</p>
+      <h1>Oops!</h1>
+      <p>We were unable to find the page you were looking for, but working hard to resolve this issue.</p>
     </div>
   </div> 
 </body>
